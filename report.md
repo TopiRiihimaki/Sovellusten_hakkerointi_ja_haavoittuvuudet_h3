@@ -35,6 +35,8 @@ Kysyin tekoälyä luomaan minulle ohjelman, jolla minä saisin kaikki sala-hakke
 
 <img width="520" height="322" alt="image" src="https://github.com/user-attachments/assets/8c389fc8-fb9d-46bd-ae20-b5f0e397674b" />
 
+(Ennen ku tämän voi ajaa, pitää sille antaa oikeudet ``` chmod +x <TIEDOSTON NIMI>```
+
 Tässä tuo key kertoo, kuinka paljon se muuttuu. Sain tuosta tälläisen tulosteen:
 
 <img width="728" height="55" alt="image" src="https://github.com/user-attachments/assets/c039e135-50b1-4dc0-85e0-8a0f94e4d160" />
@@ -73,5 +75,8 @@ Alkuperäinen koodi:
 Uudempi koodi:
 
 <img width="1106" height="598" alt="image" src="https://github.com/user-attachments/assets/5ddf6a99-e147-417d-9314-34b06d6c0c11" />
+
+(Ennen kuin C-ohjelman voi suorittaa, C-lähdekoodi pitää kääntää suoritettavaksi ohjelmaksi. Tämä tehdään `gcc`:llä esimerkiksi komennolla `gcc <TIEDOSTON NIMI>.c -o <UUSI NIMI>`. Tämän jälkeen valmis ohjelma voidaan suorittaa komennolla `./<UUSI NIMI>`.)
+
 
 
